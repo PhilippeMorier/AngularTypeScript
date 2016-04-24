@@ -8,3 +8,6 @@ npm-debug.log*
 
 # Dependency directory
 angular/node_modules
+
+# Distribution directory
+angular/dist
