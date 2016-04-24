@@ -1,7 +1,7 @@
 module.exports = {
     context: __dirname + '/src',
     entry: {
-        app: './app.js',
+        app: './app.ts',
         vendor: ['angular']
     },
     output: {
@@ -9,5 +9,10 @@ module.exports = {
         filename: '[name].[hash].js',
         sourceMapFilename:'[name].[hash].map'
     },
-    devtool: "source-map"
+    devtool: "source-map",
+    module: {
+        loaders: [
+            { test: /\.ts$/, loader: 'ts-loader' }
+        ]
+    }
 };

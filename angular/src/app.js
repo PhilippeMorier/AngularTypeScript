@@ -1,1 +1,1 @@
-console.log(42);
+var ng = angular;
