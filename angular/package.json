@@ -1,0 +1,29 @@
+{
+  "name": "angulartypescript",
+  "version": "0.1.0",
+  "description": "Test project to see how Angular, TypeScript, Karma & Cordova work together.",
+  "main": "index.html",
+  "bin": {
+    "typings": "./node_modules/.bin/typings",
+    "webpack": "./node_modules/.bin/webpack"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThorgalHayne/AngularTypeScript.git"
+  },
+  "author": "Thorgal Hayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThorgalHayne/AngularTypeScript/issues"
+  },
+  "homepage": "https://github.com/ThorgalHayne/AngularTypeScript#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1",
+    "webpack": "^1.13.0"
+  }
+}
